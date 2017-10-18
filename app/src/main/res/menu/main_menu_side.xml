@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/btnHome"
+            android:icon="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:title="Home"/>
+        <item
+            android:id="@+id/btnBarang"
+            android:icon="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:title="Pricelist"/>
+        <item
+            android:id="@+id/btnKalkulasi"
+            android:icon="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:title="Kalkulasi"/>
+        <item
+            android:id="@+id/btnTool"
+            android:icon="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:title="Tool"/>
+
+        <item
+            android:id="@+id/tblLogout"
+            android:icon="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:title="Logout"/>
+    </group>
+
+</menu>

@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:gravity="center_vertical|center_horizontal">
+
+    <ImageView
+        android:layout_height="150dp"
+        android:layout_width="150dp"
+        android:src="@drawable/tool"/>
+
+    <TextView
+        android:text="Oops..."
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"/>
+
+    <TextView
+        android:text="Tidak ditemukan tool satupun"
+        android:textSize="14sp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/tambahBaru"
+        android:title="Tambah Baru"/>
+    
+    <item
+        android:id="@+id/tambahTemplate"
+        android:title="Template Kalkulasi"/>
+    
+</menu>

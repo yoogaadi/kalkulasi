@@ -1,0 +1,50 @@
+<android.support.design.widget.CoordinatorLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+		<android.support.design.widget.AppBarLayout
+			android:layout_width="match_parent"
+			android:textColor="#FFFFFF"
+			android:layout_height="wrap_content"
+			android:background="@color/colorPrimary">
+			
+			<android.support.v7.widget.Toolbar
+				android:id="@+id/toolbar"
+				android:textColor="#FFFFFF"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+					app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+					app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+				android:background="@color/colorPrimary"
+				app:layout_scrollFlags="scroll|enterAlways"/>
+			
+		</android.support.design.widget.AppBarLayout>
+		<RelativeLayout 
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+			<FrameLayout
+				android:id="@+id/frame_layout"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_above="@+id/navigation"
+				android:animateLayoutChanges="true">
+			</FrameLayout>
+			<com.google.android.gms.ads.AdView
+				xmlns:ads="http://schemas.android.com/apk/res-auto"
+				android:id="@+id/adView"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerHorizontal="true"
+				android:layout_alignParentBottom="true"
+				ads:adSize="BANNER"
+				ads:adUnitId="ca-app-pub-9240036468098328/4914001292">
+			</com.google.android.gms.ads.AdView>
+		</RelativeLayout>
+	</LinearLayout>
+	
+</android.support.design.widget.CoordinatorLayout>

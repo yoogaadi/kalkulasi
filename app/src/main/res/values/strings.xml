@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Kalkulasi</string>
+    <string name="item_1">Home</string>
+    <string name="item_2">Kalkulasi</string>
+    <string name="item_3">Tool</string>
+    <string name="nama_user">User</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="info_barang">Input barang bisa berdasarkan pricelist yang sudah dimasukkan, atau dapat membuat pricelist baru</string>
+    <string name="info_project">Belum ada data kalkulasi. Kalkulasi dapat ditambahkan dari template yang sudah dibuat atau dapat membuat kalkulasi baru</string>
+    <string name="info_tool">Tambahkan beberapa variabel kemudian ubah formula untuk perhitungannya</string>
+    <string name="info_kalkulasi">Tambahkan beberapa variabel dan item, kemudian ubah formula untuk perhitungannya</string>
+    <string name="info_variabel">Penambahan variabel dapat dilakukan dengan tombol plus pada layar</string>
+    <string name="info_sub_kalkulasi">Sub kalkulasi dapat ditambahkan dengan menekan tombol plus pada layar</string>
+    <string name="info_pilih_barang">Tidak ada daftar item. Klik tombol plus diatas atau ke menu pricelist untuk menambah item</string>
+    
+</resources>

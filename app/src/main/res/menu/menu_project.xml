@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/btnEdit"
+        android:title="Edit Project"/>
+    
+    <item
+        android:id="@+id/btnHapus"
+        android:title="Hapus Project"/>
+</menu>

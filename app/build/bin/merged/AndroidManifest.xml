@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.yoga.kalkulasi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="25"
+        tools:overrideLibrary="android.support.graphics.drawable.animated,android.support.v4,android.support.compat,android.support.mediacompat,android.support.coreutils,android.support.coreui,android.support.fragment,android.support.transition" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.yoga.kalkulasi.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.yoga.kalkulasi.RegisterActivity" />
+        <activity android:name="com.yoga.kalkulasi.LoginActivity" />
+        <activity android:name="com.yoga.kalkulasi.KalkulasiAction" />
+        <activity android:name="com.yoga.kalkulasi.KalkulasiView" />
+        <activity android:name="com.yoga.kalkulasi.SubAction" />
+        <activity android:name="com.yoga.kalkulasi.SubView" />
+        <activity android:name="com.yoga.kalkulasi.ToolAction" />
+        <activity android:name="com.yoga.kalkulasi.ToolView" />
+        <activity android:name="com.yoga.kalkulasi.VariabelAction" />
+        <activity android:name="com.yoga.kalkulasi.ProjectAction" />
+        <activity android:name="com.yoga.kalkulasi.ProjectView" />
+        <activity android:name="com.yoga.kalkulasi.KategoriActivity" />
+        <activity android:name="com.yoga.kalkulasi.FragmentEmptyTool" />
+        <activity android:name="com.yoga.kalkulasi.TambahBarang" />
+        <activity android:name="com.yoga.kalkulasi.ControlTutorial" />
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+            android:theme="@style/Theme.IAPTheme" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    </application>
+
+</manifest>

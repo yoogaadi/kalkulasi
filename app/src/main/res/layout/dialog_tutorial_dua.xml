@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@drawable/rect_radius_color">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="vertical"
+		android:layout_weight="4"
+		android:layout_gravity="center_vertical|center_horizontal"
+		android:gravity="center_vertical|center_horizontal"
+		android:layout_marginBottom="15dp"
+		android:padding="15dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:text="Menambah Daftar Pricelist"
+			android:layout_marginBottom="15dp"
+			android:textColor="#FFFFFF"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:text="Mulai dengan mencoba menambahkan satu daftar pricelist dengan menekan tombol plus (+) pada layar. Kemudian pilih menu 'Tambah Pricelist'"
+			android:gravity="center_vertical|center_horizontal"
+			android:textColor="#FFFFFF"/>
+
+	</LinearLayout>
+
+	<Button
+		android:layout_margin="15dp"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Lanjutkan"
+		android:padding="10dp"
+		android:id="@+id/btnLanjut"
+		android:layout_gravity="center_vertical|center_horizontal"/>
+
+</LinearLayout>
+

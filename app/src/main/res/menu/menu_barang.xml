@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/kelolaKategori"
+        android:title="Kelola Kategori"/>
+    <item
+        android:id="@+id/tambahBarang"
+        android:title="Tambah Pricelist"/>
+</menu>
